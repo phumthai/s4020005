@@ -11,3 +11,5 @@
 
 8. เปิด cmd อีกอัน ssh เข้าไปที่ serverA
 9. sudo systemctl restart nginx
+
+10. เปิด web browser เข้า http://10.110.60.38:8000/
