@@ -7,5 +7,5 @@ app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => res.render('pages/index'))
 
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 8000;
 app.listen(port , () => console.log('App listening on port ' + port));
